@@ -11,7 +11,7 @@ import productRoutes from "./routes/productRoutes.js";
 // configure env
 dotenv.config();
 //port
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8080;
 
 // db connection
 connectDB();
